@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/setting_row" android:gravity="center_vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/list_bg01">
+
+	<TextView android:id="@+id/vod_genreRoot_text" 
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="center_vertical"
+		android:textColor="@color/PLUM"
+		android:textSize="17dip"
+		android:text="loading" 
+		android:layout_alignParentLeft="true" 
+		android:layout_marginLeft="15dip" />
+
+	<ImageView android:id="@+id/vod_ListIconArrow"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/list_icon_arrow"
+		android:layout_alignParentRight="true" 
+		android:layout_marginRight="13dip"
+		android:layout_marginTop="5dip" />
+
+</RelativeLayout>

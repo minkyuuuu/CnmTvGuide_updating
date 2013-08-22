@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/setting_row_chk" android:gravity="center_vertical"
+	android:layout_height="wrap_content" android:layout_width="wrap_content"
+	android:background="@drawable/list_bg01" android:layout_gravity="center_vertical">
+
+	<TextView android:id="@+id/Setting_Item" android:text="TEST" 
+		android:layout_width="wrap_content" android:textColor="@color/PLUM"
+		android:textSize="17dip" 
+		android:layout_alignParentLeft="true" 
+		android:layout_marginLeft="10dip" android:layout_height="wrap_content" android:gravity="center_vertical" android:layout_centerVertical="true"/>
+
+	<CheckBox android:id="@+id/check"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true" 
+		android:layout_marginRight="13dip"
+		android:layout_marginTop="5dip"
+	android:clickable="false" android:focusable="false" android:focusableInTouchMode="false"/>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_backbg_01"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="33.33dip"
+        android:layout_marginLeft="@dimen/px5"
+        android:layout_marginRight="@dimen/px5"
+        android:layout_marginTop="@dimen/px5"
+        android:background="@drawable/set_backbg_03_top" >
+
+        <ImageView
+            android:id="@+id/Company_Log"
+            android:layout_width="60dip"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_marginRight="@dimen/px10"
+            android:scaleType="centerCrop" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Copany"
+            android:layout_width="@dimen/px150"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px10"
+            android:ellipsize="marquee"
+            android:gravity="right|center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="Company"
+            android:textColor="@color/BLACK" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Channel_Number"
+            android:layout_width="@dimen/px150"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px10"
+            android:gravity="left|center"
+            android:singleLine="true"
+            android:text="Chanel Number"
+            android:textColor="@color/BLACK" >
+        </TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tvch_Schedu_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:soundEffectsEnabled="false" >
+        <hdlnc.dev2.sangtae.cnm.tvchannel.slideView
+            android:id="@+id/CusttomScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dip"
+            android:paddingTop="@dimen/px5"
+            android:scrollbars="none"
+            android:soundEffectsEnabled="false" >
+        </hdlnc.dev2.sangtae.cnm.tvchannel.slideView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+<Root>
+  <Result>0</Result>
+<Item>
+    <VOD_ID><![CDATA[ 1 ]]></VOD_ID>
+    <VOD_TAG><![CDATA[ 검우강호 ]]></VOD_TAG>
+    <VOD_Title><![CDATA[ 검우강호[HD] ]]></VOD_Title>
+    <VOD_IMG><![CDATA[ http://58.143.243.91/UploadFiles/JoyN/201011101840180.jpg ]]></VOD_IMG>
+    <VOD_Video_Path><![CDATA[ rtsp://v3.cache3.c.youtube.com/CjYLENy73wIaLQlQkEWshlSxyBMYESARFEIJbXYtZ29vZ2xlSARSBWluZGV4YIms74H216uRTAw=/0/0/0/video.3gp ]]></VOD_Video_Path>
+    <VOD_Director><![CDATA[ 김한 ]]></VOD_Director>
+    <VOD_Actor><![CDATA[ 황이사님, 요한씨 ]]></VOD_Actor>
+    <VOD_Grade><![CDATA[ 19 ]]></VOD_Grade>
+	<VOD_HD><![CDATA[ YES ]]></VOD_HD>
+	<VOD_Price><![CDATA[ 2000원 ]]></VOD_Price>
+	<VOD_RunningTime><![CDATA[ 200분 ]]></VOD_RunningTime>
+    <VOD_Contents><![CDATA[ 예고편에 대한 데이터 제공. 하나의 타이틀에 여러 개의 예고편이 있을수 있음 그경우는 Trailer_More 의 값이 YES이고 해당 예고편의 구분은 TAG값으로 구분한다. ]]></VOD_Contents>
+    <VOD_More><![CDATA[ YES ]]></VOD_More>
+</Item>
+<Item>
+    <VOD_ID><![CDATA[ 2 ]]></VOD_ID>
+    <VOD_TAG><![CDATA[ 검우강호 ]]></VOD_TAG>
+    <VOD_Title><![CDATA[ 검우강호[스페셜에디션] ]]></VOD_Title>
+    <VOD_IMG><![CDATA[ http://58.143.243.91/UploadFiles/JoyN/201011101840180.jpg ]]></VOD_IMG>
+    <VOD_Video_Path><![CDATA[ rtsp://v3.cache3.c.youtube.com/CjYLENy73wIaLQlQkEWshlSxyBMYESARFEIJbXYtZ29vZ2xlSARSBWluZGV4YIms74H216uRTAw=/0/0/0/video.3gp ]]></VOD_Video_Path>
+    <VOD_Director><![CDATA[ 김한 ]]></VOD_Director>
+    <VOD_Actor><![CDATA[ 황이사님, 요한씨 ]]></VOD_Actor>
+    <VOD_Grade><![CDATA[ 19 ]]></VOD_Grade>
+	<VOD_HD><![CDATA[ YES ]]></VOD_HD>
+	<VOD_Price><![CDATA[ 2000원 ]]></VOD_Price>
+	<VOD_RunningTime><![CDATA[ 200분 ]]></VOD_RunningTime>
+    <VOD_Contents><![CDATA[ 예고편에 대한 데이터 제공. 하나의 타이틀에 여러 개의 예고편이 있을수 있음 그경우는 Trailer_More 의 값이 YES이고 해당 예고편의 구분은 TAG값으로 구분한다. ]]></VOD_Contents>
+    <VOD_More><![CDATA[ YES ]]></VOD_More>
+</Item>
+<Item>
+    <VOD_ID><![CDATA[ 3 ]]></VOD_ID>
+    <VOD_TAG><![CDATA[ 검우강호 ]]></VOD_TAG>
+    <VOD_Title><![CDATA[ 검우강호[감독판] ]]></VOD_Title>
+    <VOD_IMG><![CDATA[ http://58.143.243.91/UploadFiles/JoyN/201011101840180.jpg ]]></VOD_IMG>
+    <VOD_Video_Path><![CDATA[ rtsp://v3.cache3.c.youtube.com/CjYLENy73wIaLQlQkEWshlSxyBMYESARFEIJbXYtZ29vZ2xlSARSBWluZGV4YIms74H216uRTAw=/0/0/0/video.3gp ]]></VOD_Video_Path>
+    <VOD_Director><![CDATA[ 김한 ]]></VOD_Director>
+    <VOD_Actor><![CDATA[ 황이사님, 요한씨 ]]></VOD_Actor>
+    <VOD_Grade><![CDATA[ 19 ]]></VOD_Grade>
+	<VOD_HD><![CDATA[ YES ]]></VOD_HD>
+	<VOD_Price><![CDATA[ 2000원 ]]></VOD_Price>
+	<VOD_RunningTime><![CDATA[ 200분 ]]></VOD_RunningTime>
+    <VOD_Contents><![CDATA[ 예고편에 대한 데이터 제공. 하나의 타이틀에 여러 개의 예고편이 있을수 있음 그경우는 Trailer_More 의 값이 YES이고 해당 예고편의 구분은 TAG값으로 구분한다. ]]></VOD_Contents>
+    <VOD_More><![CDATA[ YES ]]></VOD_More>
+</Item>
+<Item>
+    <VOD_ID><![CDATA[ 4 ]]></VOD_ID>
+    <VOD_TAG><![CDATA[ 검우강호 ]]></VOD_TAG>
+    <VOD_Title><![CDATA[ 검우강호 ]]></VOD_Title>
+    <VOD_IMG><![CDATA[ http://58.143.243.91/UploadFiles/JoyN/201011101840180.jpg ]]></VOD_IMG>
+    <VOD_Video_Path><![CDATA[ rtsp://v3.cache3.c.youtube.com/CjYLENy73wIaLQlQkEWshlSxyBMYESARFEIJbXYtZ29vZ2xlSARSBWluZGV4YIms74H216uRTAw=/0/0/0/video.3gp ]]></VOD_Video_Path>
+    <VOD_Director><![CDATA[ 김한 ]]></VOD_Director>
+    <VOD_Actor><![CDATA[ 황이사님, 요한씨 ]]></VOD_Actor>
+    <VOD_Grade><![CDATA[ 19 ]]></VOD_Grade>
+	<VOD_HD><![CDATA[ YES ]]></VOD_HD>
+	<VOD_Price><![CDATA[ 2000원 ]]></VOD_Price>
+	<VOD_RunningTime><![CDATA[ 200분 ]]></VOD_RunningTime>
+    <VOD_Contents><![CDATA[ 예고편에 대한 데이터 제공. 하나의 타이틀에 여러 개의 예고편이 있을수 있음 그경우는 Trailer_More 의 값이 YES이고 해당 예고편의 구분은 TAG값으로 구분한다. ]]></VOD_Contents>
+    <VOD_More><![CDATA[ YES ]]></VOD_More>
+</Item>
+<Item>
+    <VOD_ID><![CDATA[ 5 ]]></VOD_ID>
+    <VOD_TAG><![CDATA[ 플래닛 ]]></VOD_TAG>
+    <VOD_Title><![CDATA[ 플래닛 ]]></VOD_Title>
+    <VOD_IMG><![CDATA[ http://58.143.243.91/UploadFiles/JoyN/201011101840180.jpg ]]></VOD_IMG>
+    <VOD_Video_Path><![CDATA[ rtsp://v3.cache3.c.youtube.com/CjYLENy73wIaLQlQkEWshlSxyBMYESARFEIJbXYtZ29vZ2xlSARSBWluZGV4YIms74H216uRTAw=/0/0/0/video.3gp ]]></VOD_Video_Path>
+    <VOD_Director><![CDATA[ 요한씨 ]]></VOD_Director>
+    <VOD_Actor><![CDATA[ 박이사님, 김한 ]]></VOD_Actor>
+    <VOD_Grade><![CDATA[ 15 ]]></VOD_Grade>
+	<VOD_HD><![CDATA[ YES ]]></VOD_HD>
+	<VOD_Price><![CDATA[ 3000원 ]]></VOD_Price>
+	<VOD_RunningTime><![CDATA[ 200분 ]]></VOD_RunningTime>
+    <VOD_Contents><![CDATA[ 예고편에 대한 데이터 제공. 하나의 타이틀에 여러 개의 예고편이 있을수 있음 그경우는 Trailer_More 의 값이 YES이고 해당 예고편의 구분은 TAG값으로 구분한다. ]]></VOD_Contents>
+    <VOD_More><![CDATA[ NO ]]></VOD_More>
+</Item>
+<Item>
+    <VOD_ID><![CDATA[ 6 ]]></VOD_ID>
+    <VOD_TAG><![CDATA[ 쏘우5 ]]></VOD_TAG>
+    <VOD_Title><![CDATA[ 쏘우5 ]]></VOD_Title>
+    <VOD_IMG><![CDATA[ http://58.143.243.91/UploadFiles/JoyN/201011101840180.jpg ]]></VOD_IMG>
+    <VOD_Video_Path><![CDATA[ rtsp://v3.cache3.c.youtube.com/CjYLENy73wIaLQlQkEWshlSxyBMYESARFEIJbXYtZ29vZ2xlSARSBWluZGV4YIms74H216uRTAw=/0/0/0/video.3gp ]]></VOD_Video_Path>
+    <VOD_Director><![CDATA[ 요한씨 ]]></VOD_Director>
+    <VOD_Actor><![CDATA[ 박이사님, 김한 ]]></VOD_Actor>
+    <VOD_Grade><![CDATA[ 19 ]]></VOD_Grade>
+	<VOD_HD><![CDATA[ NO ]]></VOD_HD>
+	<VOD_Price><![CDATA[ 5000원 ]]></VOD_Price>
+	<VOD_RunningTime><![CDATA[ 200분 ]]></VOD_RunningTime>
+    <VOD_Contents><![CDATA[ 예고편에 대한 데이터 제공. 하나의 타이틀에 여러 개의 예고편이 있을수 있음 그경우는 Trailer_More 의 값이 YES이고 해당 예고편의 구분은 TAG값으로 구분한다. ]]></VOD_Contents>
+    <VOD_More><![CDATA[ NO ]]></VOD_More>
+</Item>
+<Item>
+    <VOD_ID><![CDATA[ 7 ]]></VOD_ID>
+    <VOD_TAG><![CDATA[ 김종욱찾기 ]]></VOD_TAG>
+    <VOD_Title><![CDATA[ 김종욱찾기 ]]></VOD_Title>
+    <VOD_IMG><![CDATA[ http://58.143.243.91/UploadFiles/JoyN/201011101840180.jpg ]]></VOD_IMG>
+    <VOD_Video_Path><![CDATA[ rtsp://v3.cache3.c.youtube.com/CjYLENy73wIaLQlQkEWshlSxyBMYESARFEIJbXYtZ29vZ2xlSARSBWluZGV4YIms74H216uRTAw=/0/0/0/video.3gp ]]></VOD_Video_Path>
+    <VOD_Director><![CDATA[ 요한씨 ]]></VOD_Director>
+    <VOD_Actor><![CDATA[ 박이사님, 김한 ]]></VOD_Actor>
+    <VOD_Grade><![CDATA[ all ]]></VOD_Grade>
+	<VOD_HD><![CDATA[ NO ]]></VOD_HD>
+	<VOD_Price><![CDATA[ 6000원 ]]></VOD_Price>
+	<VOD_RunningTime><![CDATA[ 200분 ]]></VOD_RunningTime>
+    <VOD_Contents><![CDATA[ 예고편에 대한 데이터 제공. 하나의 타이틀에 여러 개의 예고편이 있을수 있음 그경우는 Trailer_More 의 값이 YES이고 해당 예고편의 구분은 TAG값으로 구분한다. ]]></VOD_Contents>
+    <VOD_More><![CDATA[ NO ]]></VOD_More>
+</Item>
+<Item>
+    <VOD_ID><![CDATA[ 8 ]]></VOD_ID>
+    <VOD_TAG><![CDATA[ 국가대표 ]]></VOD_TAG>
+    <VOD_Title><![CDATA[ 국가대표 ]]></VOD_Title>
+    <VOD_IMG><![CDATA[ http://58.143.243.91/UploadFiles/JoyN/201011101840180.jpg ]]></VOD_IMG>
+    <VOD_Video_Path><![CDATA[ rtsp://v3.cache3.c.youtube.com/CjYLENy73wIaLQlQkEWshlSxyBMYESARFEIJbXYtZ29vZ2xlSARSBWluZGV4YIms74H216uRTAw=/0/0/0/video.3gp ]]></VOD_Video_Path>
+    <VOD_Director><![CDATA[ 박이사님 ]]></VOD_Director>
+    <VOD_Actor><![CDATA[ 요한씨, 김한 ]]></VOD_Actor>
+    <VOD_Grade><![CDATA[ all ]]></VOD_Grade>
+	<VOD_HD><![CDATA[ NO ]]></VOD_HD>
+	<VOD_Price><![CDATA[ 3000원 ]]></VOD_Price>
+	<VOD_RunningTime><![CDATA[ 100분 ]]></VOD_RunningTime>
+    <VOD_Contents><![CDATA[ 예고편에 대한 데이터 제공. 하나의 타이틀에 여러 개의 예고편이 있을수 있음 그경우는 Trailer_More 의 값이 YES이고 해당 예고편의 구분은 TAG값으로 구분한다. ]]></VOD_Contents>
+    <VOD_More><![CDATA[ NO ]]></VOD_More>
+</Item>
+<Item>
+    <VOD_ID><![CDATA[ 9 ]]></VOD_ID>
+    <VOD_TAG><![CDATA[ 나홀로집에4 ]]></VOD_TAG>
+    <VOD_Title><![CDATA[ 나홀로집에4 ]]></VOD_Title>
+    <VOD_IMG><![CDATA[ http://58.143.243.91/UploadFiles/JoyN/201011101840180.jpg ]]></VOD_IMG>
+    <VOD_Video_Path><![CDATA[ rtsp://v3.cache3.c.youtube.com/CjYLENy73wIaLQlQkEWshlSxyBMYESARFEIJbXYtZ29vZ2xlSARSBWluZGV4YIms74H216uRTAw=/0/0/0/video.3gp ]]></VOD_Video_Path>
+    <VOD_Director><![CDATA[ 박이사님 ]]></VOD_Director>
+    <VOD_Actor><![CDATA[ 요한씨, 김한 ]]></VOD_Actor>
+    <VOD_Grade><![CDATA[ all ]]></VOD_Grade>
+	<VOD_HD><![CDATA[ NO ]]></VOD_HD>
+	<VOD_Price><![CDATA[ 3000원 ]]></VOD_Price>
+	<VOD_RunningTime><![CDATA[ 100분 ]]></VOD_RunningTime>
+    <VOD_Contents><![CDATA[ 예고편에 대한 데이터 제공. 하나의 타이틀에 여러 개의 예고편이 있을수 있음 그경우는 Trailer_More 의 값이 YES이고 해당 예고편의 구분은 TAG값으로 구분한다. ]]></VOD_Contents>
+    <VOD_More><![CDATA[ NO ]]></VOD_More>
+</Item>
+<Item>
+    <VOD_ID><![CDATA[ 0 ]]></VOD_ID>
+    <VOD_TAG><![CDATA[ 나홀로집에3 ]]></VOD_TAG>
+    <VOD_Title><![CDATA[ 나홀로집에3 ]]></VOD_Title>
+    <VOD_IMG><![CDATA[ http://58.143.243.91/UploadFiles/JoyN/201011101840180.jpg ]]></VOD_IMG>
+    <VOD_Video_Path><![CDATA[ rtsp://v3.cache3.c.youtube.com/CjYLENy73wIaLQlQkEWshlSxyBMYESARFEIJbXYtZ29vZ2xlSARSBWluZGV4YIms74H216uRTAw=/0/0/0/video.3gp ]]></VOD_Video_Path>
+    <VOD_Director><![CDATA[ 박이사님 ]]></VOD_Director>
+    <VOD_Actor><![CDATA[ 요한씨, 김한 ]]></VOD_Actor>
+    <VOD_Grade><![CDATA[ all ]]></VOD_Grade>
+	<VOD_HD><![CDATA[ NO ]]></VOD_HD>
+	<VOD_Price><![CDATA[ 3000원 ]]></VOD_Price>
+	<VOD_RunningTime><![CDATA[ 100분 ]]></VOD_RunningTime>
+    <VOD_Contents><![CDATA[ 예고편에 대한 데이터 제공. 하나의 타이틀에 여러 개의 예고편이 있을수 있음 그경우는 Trailer_More 의 값이 YES이고 해당 예고편의 구분은 TAG값으로 구분한다. ]]></VOD_Contents>
+    <VOD_More><![CDATA[ NO ]]></VOD_More>
+</Item>
+
+</Root>

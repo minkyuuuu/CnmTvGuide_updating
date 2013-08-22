@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32.66dip"
+        android:background="@drawable/tvch_schedulebar_bg" >
+
+        <TextView
+            android:id="@+id/BroadcastDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/WHITE" >
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/SlideLeftBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/tvch_schedulebar_arrow_left"
+            android:soundEffectsEnabled="false" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/SlideRightBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/tvch_schedulebar_arrow_right"
+            android:soundEffectsEnabled="false" >
+        </ImageButton>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/tvch_schedule_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dip"
+            android:soundEffectsEnabled="false" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

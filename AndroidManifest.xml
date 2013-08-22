@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="hdlnc.dev2.sangtae.cnm" xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionName="1.96" android:versionCode="25">
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+	<application android:name=".global.CNMApplication"
+		android:icon="@drawable/icon" android:label="@string/app_name"
+		android:debuggable="true" android:theme="@android:style/Theme.NoTitleBar">
+		<activity android:label="@string/app_name"
+			android:screenOrientation="portrait" android:name=".main.main"
+			android:windowSoftInputMode="adjustPan" android:launchMode="singleTask">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"
+					android:windowSoftInputMode="adjustPan"></action>
+				<category android:name="android.intent.category.LAUNCHER"></category>
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".vod.VODSE_Detailview"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VOD_Service"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VODSE_GenreRoot"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VODSE_GenreDepth"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VODSE_Genre_List"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VODSE_Preview"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VODSE_NewMovie_Coverflow"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VODSE_NewMovie_List"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VODSE_TvReplay_List"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VODSE_TvReplay_Coverflow"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VodServiceTabGroup"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VODSE_Zzim_List"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".vod.VODSE_SearchResult_List"
+			android:windowSoftInputMode="adjustPan"></activity>
+
+
+		<activity android:name=".joyn.JoyNTabActivity"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".joyn.JoyNGroup"
+			android:windowSoftInputMode="adjustPan">
+		</activity>
+		<activity android:name=".joyn.JoyN"
+			android:windowSoftInputMode="adjustPan">
+		</activity>
+		<activity android:name=".joyn.JoyNDetail"
+			android:windowSoftInputMode="adjustPan">
+		</activity>
+		<activity android:name=".settings.SettingGroup"
+			android:windowSoftInputMode="adjustPan">
+		</activity>
+		<activity android:name=".settings.Setting"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".settings.Setting_InitView"></activity>
+		<activity android:name=".settings.Setting_Vod_Style"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".settings.Setting_LocationInfo"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".settings.Setting_ProductInfo"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".settings.Setting_Refurbish"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".settings.Setting_SettopRegi"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".settings.Setting_SettopRegi_Complete"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".settings.Setting_Adult_Auth"
+			android:configChanges="keyboardHidden" android:windowSoftInputMode="adjustResize"></activity>
+		<activity android:name=".settings.Setting_Help"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".settings.Setting_Help_Detail"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".settings.SettingTabActivity"
+			android:windowSoftInputMode="adjustPan"></activity>
+
+		<activity android:screenOrientation="portrait" android:name=".main.SplashActivity"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".main.Main_MenuActivity"
+			android:screenOrientation="portrait" android:clearTaskOnLaunch="true"
+			android:windowSoftInputMode="adjustPan">
+
+		</activity>
+		<activity android:name=".tvchannel.TV_Channel"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".tvchannel.TVCH_All"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".tvchannel.TVCH_My"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".tvchannel.TVCH_HD"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".tvchannel.TVCH_Paid"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".tvchannel.TVCH_Genre"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".tvchannel.ScheduleListActivity"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".tvchannel.TvChannelTabGroup"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".tvchannel.TVCH_Schedule"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".tvchannel.TVCH_Schedule_Setting"
+			android:windowSoftInputMode="adjustPan"></activity>
+
+		<service android:name=".global.CNM_Alarm_Service">
+			<intent-filter>
+				<action android:name="hdlnc.dev2.sangtae.cnm.global.CNM_Alarm_Service" />
+			</intent-filter>
+
+		</service>
+		<activity android:name=".tvchannel.TVCH_Alarm_Activity"
+			android:windowSoftInputMode="adjustPan">
+		</activity>
+		<activity android:name=".tvchannel.TVCH_MY_Activity"
+			android:windowSoftInputMode="adjustPan"></activity>
+
+		<receiver android:name=".global.CNM_Alarm_Receiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+			</intent-filter>
+		</receiver>
+
+		<activity android:name=".tvchannel.TVCH_Genre_Activity"
+			android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".tvchannel.TVCH_SearchResult_List"></activity>
+		<activity android:name="remote.RemoteTabGroup"></activity>
+		<activity android:name="pvr.PVRTabGroup"></activity>
+		<activity android:name="remote.RemoteTab"></activity>
+		<activity android:name="pvr.PvrTab"></activity>
+		<activity android:name=".global.CNM_InfomationView" android:screenOrientation="portrait"></activity>
+		<activity android:name="remote.Remote_All_CH">
+		</activity>
+		<activity android:name="remote.TV_Message"></activity>
+		<activity android:name="remote.Remote_My_CH"></activity>
+		<activity android:name="pvr.Pvr_RecordList"></activity>
+		<activity android:name="pvr.Pvr_RecordReserveList"></activity>
+		<activity android:name="pvr.RecordSeriesList"></activity>
+		<activity android:name="pvr.PVR_RecordSetting"></activity>
+	</application>
+	<uses-sdk android:targetSdkVersion="8" android:minSdkVersion="8" />
+
+	<supports-screens android:normalScreens="true"
+		android:resizeable="true" android:smallScreens="true"
+		android:largeScreens="true" android:anyDensity="true"></supports-screens>
+
+
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.RESTART_PACKAGES"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+</manifest> 

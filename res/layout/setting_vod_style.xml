@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LinearLayout01" 
+	android:gravity="center"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/vod_backbg_02">
+	
+	<RadioGroup android:id="@+id/Setting_Vod_Style_RadioGr"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		<RadioButton android:id="@+id/Radio_Vod_ImageView"
+			android:text="Image View"
+			android:textColor="@color/WHITE"
+			android:textSize="14sp"
+			android:layout_marginLeft="25dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			/>
+					
+		<RadioButton android:id="@+id/Radio_Vod_ListView"
+			android:text="List View"
+			android:textColor="@color/WHITE"
+			android:textSize="14sp"
+			android:layout_marginLeft="38dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			/>
+	</RadioGroup>
+	
+	<RelativeLayout
+		android:layout_below="@id/Setting_Vod_Style_RadioGr"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" >
+		
+		<RelativeLayout	
+			android:id="@+id/vodset_image_layout"
+			android:background="@drawable/set_selectbg"
+			android:layout_width="105.3dp" android:layout_height="155.3dp" >
+			<ImageView
+				android:src="@drawable/vodset_image"
+				android:layout_centerInParent="true"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />	
+		</RelativeLayout>
+		
+		<RelativeLayout	
+			android:id="@+id/vodset_list_layout"
+			android:layout_marginLeft="50dp"
+			android:layout_toRightOf="@id/vodset_image_layout"
+			android:background="@drawable/set_selectbg"
+			android:layout_width="105.3dp" android:layout_height="155.3dp" >
+			<ImageView
+				android:src="@drawable/vodset_list"
+				android:layout_centerInParent="true"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />	
+		</RelativeLayout>
+					
+	</RelativeLayout>
+	
+</RelativeLayout>
+

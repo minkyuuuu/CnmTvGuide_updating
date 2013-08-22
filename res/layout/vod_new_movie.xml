@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/vod_backbg_02"
+  android:layout_width="fill_parent"  android:layout_height="fill_parent">
+  
+	  <RelativeLayout 
+	  	android:id="@+id/vod_newMovie_top_layout"
+	  	android:layout_marginTop="20dp"
+	  	android:layout_alignParentTop="true"
+	  	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	  	
+	  		<TextView 
+	  			android:id="@+id/vod_new_movie_title"
+	  			android:layout_centerHorizontal="true"
+	  			android:layout_width="wrap_content" android:layout_height="wrap_content"
+	  			style="@style/DetailViewTitle" />
+	  		
+	  		<hdlnc.dev2.sangtae.cnm.vod.GradeImageView
+	  			android:id="@+id/vod_new_movie_grade"
+	  			android:layout_centerVertical="true"
+	  			android:layout_marginLeft="8dp"
+	  			android:layout_toRightOf="@id/vod_new_movie_title"
+	  			android:layout_width="wrap_content" android:layout_height="wrap_content"
+	  			android:background="@drawable/icon_class_all" />
+	  			
+	  		<hdlnc.dev2.sangtae.cnm.vod.TypeImageView
+	  			android:id="@+id/vod_new_movie_type"
+	  			android:layout_toRightOf="@id/vod_new_movie_grade"
+	  			android:layout_centerVertical="true"
+	  			android:layout_marginLeft="8dp"
+	  			android:layout_width="wrap_content" android:layout_height="wrap_content"
+	  			android:background="@drawable/icon_hd" />
+	  			
+		</RelativeLayout>
+ 	
+	  <RelativeLayout
+	  	android:id="@+id/vod_gallery_layout"
+	  	android:layout_below="@id/vod_newMovie_top_layout"
+	  	android:layout_width="fill_parent"  android:layout_height="fill_parent"/>
+ 	
+</RelativeLayout>

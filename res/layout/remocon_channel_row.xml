@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/remocon_channel_row" android:layout_height="wrap_content"
+	android:orientation="vertical" android:background="@drawable/list_bg"
+	android:layout_width="fill_parent" android:soundEffectsEnabled="false"
+	android:gravity="center_vertical" android:paddingLeft="5dip"
+	android:paddingRight="5dip">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:gravity="center_horizontal"
+		android:orientation="vertical" android:layout_width="50dip">
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:textColor="@color/BLACK"
+			android:id="@+id/ch_number" android:text="ch 666"></TextView>
+		<ImageView android:background="@drawable/icon_mych"
+			android:id="@+id/icon_mych" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageView>
+	</LinearLayout>
+	<ImageView android:layout_height="35px" android:id="@+id/channel_logo"
+		android:layout_width="85px" android:scaleType="centerCrop"
+		android:layout_toRightOf="@+id/linearLayout1"
+		android:layout_alignParentTop="true" android:layout_marginLeft="10dip"></ImageView>
+	<TextView android:text="09:40 MM기기" android:id="@+id/program_subject"
+		android:textColor="@color/PLUM" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:singleLine="true"
+		android:textSize="16dip" android:marqueeRepeatLimit="marquee_forever"
+		android:layout_toRightOf="@+id/linearLayout1"
+		android:layout_below="@+id/channel_logo"></TextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<resources>
+
+	<style name="DefaultTextStyle">
+		<item name="android:textSize">13sp</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textColor">@color/BLACK</item>
+	</style>
+	<style name="DefaultTextStyle.LineSpacing">
+		<item name="android:lineSpacingExtra">3sp</item>
+	</style>
+
+	<style name="DefaultTextStyle.EditText">
+		<item name="android:singleLine">true</item>
+	</style>
+
+	<style name="DetailViewTitle">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#ff9c00</item>
+		<item name="android:gravity">center</item>
+		<item name="android:text">loading</item>
+	</style>
+	<style name="DetailView">
+		<item name="android:textSize">12sp</item>
+		<item name="android:textColor">#ff9c00</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	<style name="DetailViewDesc">
+		<item name="android:maxLines">5</item>
+		<item name="android:padding">10dp</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:text">loading</item>
+	</style>
+	<style name="DetailViewContent">
+		<item name="android:textSize">12sp</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:text"> loading</item>
+		<item name="android:layout_marginLeft"> 5dp</item>
+	</style>
+	<style name="DetailView.DetailViewDirector">
+		<item name="android:text">감독 : </item>
+	</style>
+	<style name="DetailView.DetailViewMainActor">
+		<item name="android:text">출연 : </item>
+	</style>
+	<style name="DetailView.DetailViewClass">
+		<item name="android:text">관람등급 : </item>
+	</style>
+	<style name="DetailView.DetailViewShowTerm">
+		<item name="android:text">상영시간 : </item>
+	</style>
+	<style name="DetailView.DetailViewPrice">
+		<item name="android:text">가격 : </item>
+	</style>
+
+	<style name="list_main_icon">
+
+	</style>
+	<style name="list_title">
+		<item name="android:padding">2dip</item>
+		<item name="android:textSize">15dip</item>
+		<item name="android:textColor">@color/BLACK</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:text">loading</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	<style name="list_director">
+		<item name="android:padding">2dip</item>
+		<item name="android:textSize">12dip</item>
+		<item name="android:textColor">@color/BLACK</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:text">loading</item>
+		<item name="android:layout_width">220dp</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="list_casting">
+		<item name="android:padding">2dip</item>
+		<item name="android:textSize">12dip</item>
+		<item name="android:textColor">@color/BLACK</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:text">loading</item>
+		<item name="android:layout_width">220dp</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="list_icon1">
+
+	</style>
+	<style name="list_icon2">
+
+	</style>
+
+	<style name="list_icon_arrow">
+
+	</style>
+
+	<style name="Transparent">
+		<item name="android:windowIsTranslucent">true</item>
+		-->
+		<!--<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item> -->
+		<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@drawable/transparent</item>
+		<item name="android:colorForeground">#ffffff</item>
+		<item name="android:windowContentOverlay">@null</item>
+
+	</style>
+	
+</resources>

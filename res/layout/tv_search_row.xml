@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/setting_row" android:layout_width="fill_parent"
+	android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:background="@drawable/list_bg">
+
+	<TextView android:id="@+id/vod_ListNumber" android:text="000"
+		android:textSize="18sp" android:textColor="@color/PLUM"
+		android:gravity="center" android:layout_marginLeft="3dip"
+		android:layout_alignParentLeft="true" android:layout_centerVertical="true"
+		android:layout_width="34.6dp" android:layout_height="fill_parent"/>
+
+	<LinearLayout android:id="@+id/vod_ListPoster"
+		android:layout_toRightOf="@id/vod_ListNumber" android:layout_width="54dp"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="3dip" android:orientation="vertical" android:gravity="center" android:layout_height="fill_parent">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="@color/BLACK" android:layout_height="wrap_content"
+			android:textSize="12dip" android:text="02.07 (월)" android:id="@+id/tvch_day"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@color/BLACK"
+			android:text="16:00" android:id="@+id/tvch_time" android:textSize="18dip"></TextView>
+	
+</LinearLayout>
+	<LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_marginLeft="7dip" android:layout_height="fill_parent" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_toRightOf="@+id/vod_ListPoster" android:layout_centerVertical="true" android:layout_marginRight="25dip">
+		<LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:gravity="center_vertical" android:layout_height="20dip">
+			<TextView android:textSize="12dip" android:layout_width="wrap_content" android:text="TextView" android:layout_height="wrap_content" style="@style/list_title" android:textColor="@color/BLACK" android:id="@+id/tvch_numb"></TextView>
+			<ImageView android:layout_width="40dip" android:id="@+id/tvch_logimg" android:layout_height="fill_parent"></ImageView>
+			<ImageView android:layout_width="40dip" android:id="@+id/vod_ListVodTypeIcon" android:background="@drawable/icon_hd" android:layout_height="fill_parent" android:visibility="gone" android:layout_marginLeft="10dp"></ImageView>
+		</LinearLayout>
+		<TextView android:textSize="17dip" android:text="TextView" style="@style/list_casting" android:textColor="@color/PLUM" android:id="@+id/tvch_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="normal"></TextView>
+	</LinearLayout>
+
+	<ImageView android:id="@+id/vod_ListIconArrow"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/list_icon_arrow"
+		android:layout_alignParentRight="true" android:layout_centerVertical="true"
+		android:layout_marginRight="13dip" />
+</RelativeLayout>

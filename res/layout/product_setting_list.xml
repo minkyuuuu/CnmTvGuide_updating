@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/list_backbg_02">
+  
+  <TextView
+		android:id="@+id/vod_searchResult_header"
+		android:layout_alignParentTop="true"
+		android:gravity="center" 
+		android:layout_width="fill_parent" android:textColor="@color/BLUE" android:textStyle="normal" android:text="@string/settings_product_setting_infomation_msg" android:textSize="15sp" android:layout_height="41dp"/>
+		
+	<ListView
+		android:layout_below="@id/vod_searchResult_header"
+		android:soundEffectsEnabled="false"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/android:list" android:dividerHeight="0dip" android:divider="@color/ALPHA"/>
+
+</RelativeLayout>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/set_backbg_03"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="33.33dip"
+        android:layout_marginLeft="@dimen/px5"
+        android:layout_marginRight="@dimen/px5"
+        android:layout_marginTop="@dimen/px5"
+        android:background="@drawable/set_backbg_03_top" >
+
+        <ImageView
+            android:id="@+id/Company_Log"
+            android:layout_width="60dip"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_marginRight="@dimen/px10"
+            android:scaleType="centerCrop" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Copany"
+            android:layout_width="@dimen/px150"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px10"
+            android:ellipsize="marquee"
+            android:gravity="right|center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="Company"
+            android:textColor="@color/BLACK" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Channel_Number"
+            android:layout_width="@dimen/px150"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px10"
+            android:gravity="left|center"
+            android:singleLine="true"
+            android:text="Chanel Number"
+            android:textColor="@color/BLACK" >
+        </TextView>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="266.67dip"
+        android:layout_marginLeft="@dimen/px5"
+        android:layout_marginRight="@dimen/px5"
+        android:layout_marginTop="16.67dip"
+        android:background="@drawable/set_backbg_03_middle" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="6.67dip"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/schedule_set_subject"
+                    style="@style/DetailViewTitle"
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true"
+                    android:textColor="@color/WHITE"
+                    android:textSize="18dip"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/icon_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/icon_class_all" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/icon_hd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/icon_hd" >
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:gravity="top|center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/schedule_set_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12월 08일 (수) 11:00 ~ 12:00"
+                        android:textColor="@color/White_Smoke"
+                        android:textSize="15dip" >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="210dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dip"
+                        android:layout_marginTop="20dip"
+                        android:background="@drawable/set_backbg_02"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <ImageView
+                            android:id="@+id/myprogram_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/icon_myprogram" >
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/mypro_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="30dip"
+                            android:soundEffectsEnabled="false"
+                            android:text="@string/schedule_myProgram"
+                            android:textColor="@color/BLACK"
+                            android:textSize="15sp" >
+                        </TextView>
+
+                        <hdlnc.dev2.sangtae.cnm.global.SlideButton
+                            android:id="@+id/myProTglBtn"
+                            android:layout_width="68dip"
+                            android:layout_height="26.67dip"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/set_button_bg"
+                            android:content="@+id/slideContentLayout"
+                            android:handle="@+id/slideHandle"
+                            android:orientation="horizontal"
+                            android:soundEffectsEnabled="false" >
+
+                            <Button
+                                android:id="@+id/slideHandle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="26.67dip"
+                                android:background="@drawable/set_button_o" >
+                            </Button>
+
+                            <LinearLayout
+                                android:id="@+id/slideContentLayout"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="#00000000"
+                                android:orientation="horizontal" >
+                            </LinearLayout>
+                        </hdlnc.dev2.sangtae.cnm.global.SlideButton>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/sch_alarm_layout"
+                        android:layout_width="210dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dip"
+                        android:background="@drawable/set_backbg_02"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <ImageView
+                            android:id="@+id/myalarm_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/tvch_icon_alarm_off" >
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/alarm_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="30dip"
+                            android:soundEffectsEnabled="false"
+                            android:text="@string/schedule_myAlarm"
+                            android:textColor="@color/BLACK"
+                            android:textSize="15sp" >
+                        </TextView>
+
+                        <hdlnc.dev2.sangtae.cnm.global.SlideButton
+                            android:id="@+id/myAlarmTglBtn"
+                            android:layout_width="68dip"
+                            android:layout_height="26.67dip"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/set_button_bg"
+                            android:content="@+id/slideContentLayout"
+                            android:handle="@+id/slideHandle"
+                            android:orientation="horizontal"
+                            android:soundEffectsEnabled="false" >
+
+                            <Button
+                                android:id="@+id/slideHandle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="26.67dip"
+                                android:background="@drawable/set_button_o" >
+                            </Button>
+
+                            <LinearLayout
+                                android:id="@+id/slideContentLayout"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="#00000000"
+                                android:orientation="horizontal" >
+                            </LinearLayout>
+                        </hdlnc.dev2.sangtae.cnm.global.SlideButton>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/sch_record_layout"
+                        android:layout_width="210dip"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/set_backbg_02"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <ImageView
+                            android:id="@+id/myRecord_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/set_icon_record_off"
+                            android:soundEffectsEnabled="true" >
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/record_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="30dip"
+                            android:soundEffectsEnabled="false"
+                            android:text="@string/schedule_myRecord"
+                            android:textColor="@color/BLACK"
+                            android:textSize="15dip" >
+                        </TextView>
+
+                        <hdlnc.dev2.sangtae.cnm.global.SlideButton
+                            android:id="@+id/myRecordBtn"
+                            android:layout_width="68dip"
+                            android:layout_height="26.67dip"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/set_button_bg"
+                            android:content="@+id/slideContentLayout"
+                            android:handle="@+id/slideHandle"
+                            android:orientation="horizontal"
+                            android:soundEffectsEnabled="false" >
+
+                            <Button
+                                android:id="@+id/slideHandle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="26.67dip"
+                                android:background="@drawable/set_button_o" >
+                            </Button>
+
+                            <LinearLayout
+                                android:id="@+id/slideContentLayout"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="#00000000"
+                                android:orientation="horizontal" >
+                            </LinearLayout>
+                        </hdlnc.dev2.sangtae.cnm.global.SlideButton>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/set_care_text_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dip"
+            android:background="@drawable/set_care_text" >
+        </ImageView>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent" android:soundEffectsEnabled="false" android:gravity="center_vertical" android:paddingLeft="5dip" android:paddingRight="5dip" android:background="@drawable/remocon_livebar" android:id="@+id/runing_row">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:id="@+id/runing_subject" android:layout_centerHorizontal="true" android:textColor="@color/BLACK" android:textSize="19dip" android:text="Joy &amp; Life 시청중"></TextView>
+
+	
+</RelativeLayout>

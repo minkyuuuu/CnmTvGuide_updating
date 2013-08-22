@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<string name="app_name">씨앤앰</string>
+<string name="product_dlg_title">상품정보설정</string>
+<string name="location_dlg_title">지역정보설정</string>
+<string name="scuedule_channel_format">Ch.%s</string>
+
+<string name="setting_settop_regi1">셋탑박스 리모콘 [메뉴] 버튼을 누르고 \n[간편도우미>환경설정>스마트폰 등록 설정]을 \n선택 하세요.</string>
+<string name="setting_settop_regi2">TV화면의[새스마트폰추가]버튼을 선택 하세요.</string>
+<string name="setting_settop_regi3">전화번호 입력 창이 나타나면 빈칸에 \n\'씨앤앰 TV가이드\' 어플이 설치 된 스마트폰의\n전화번호를 입력하고 [전송]버튼을 선택하세요.</string>
+<string name="setting_settop_regi4">잠시 후 TV화면에 인증번호가 표시 됩니다.</string>
+<string name="setting_settop_regi5">인증번호를 아래 빈칸에 입력하고 [등록]버튼을 \n눌러주세요.</string>
+<string name="setting_settop_regi6">등록이 완료 되면 \"어플리케이션이 정상적으로 \n등록 되었습니다.\" 라는 메시지를 받으실 수 \n있습니다.</string>
+
+<string name="setting_settop_regWatting">셋탑등록 요청중입니다.</string>
+<string name="setting_settop_regComplete">어플리케이션이 정상적으로\n등록되었습니다.</string>
+<string name="setting_settop_regError">셋탑등록에 실패하였습니다.</string>
+<string name="setting_settop_warring">인증번호를 입력해주세요.</string>
+<string name="setting_settop_regicomp1">셋탑이 등록 되었습니다.</string>
+<string name="setting_settop_regicomp2">&lt;씨앤앰 TV가이드&gt;의 다양한 기능을 TV셋탑과 연동하여 보다 편리하고 다양하게 이용 하실 수\n있습니다.</string>
+<string name="setting_settop_regicomp3">자세한 이용안내는 씨앤앰TV가이드 메뉴[설정>이용안내]에서 확인 하실 수 있습니다.</string>
+
+<string name="vod_warring">현재 3G로 접속한 상태입니다. 3G로 접속시, Data요금이 발생할 수 있습니다.</string>
+<string name="vod_watting">데이터를 로딩 중입니다. \n잠시만 기다려주세요.</string>
+<string name="vod_error">아이템 항목이 없습니다.</string>
+<string name="vod_downloading">이미지 준비중 입니다.</string>
+<string name="joyn_imageloading">이미지를 읽어오는중입니다.</string>
+<string name="tv_watting">데이터를 로딩 중입니다. \n잠시만 기다려주세요.</string>
+<string name="vod_bacgrounding">백그라운드로 작업합니다.</string>
+
+
+<string name="vod_grade_19">19세이상</string>
+<string name="vod_grade_15">15세이상</string>
+<string name="vod_grade_12">12세이상</string>
+<string name="vod_grade_7">7세이상</string>
+<string name="vod_grade_all">all</string>
+
+<string name="Adult_ERRCODE_A">성명일치가 성공적으로 확인되었습니다.</string>
+<string name="Adult_ERRCODE_B">성명과 주민번호가 일치하지 않습니다.</string>
+<string name="Adult_ERRCODE_C">명의도용차단 신청대상자입니다.</string>
+<string name="Adult_ERRCODE_D">주민번호가 주민번호 조합체계에 맞지 않게 입력되었거나 기타 구성 오류가 있는 경우입니다.</string>
+<string name="Adult_ERRCODE_E">일시적인 통신장애 상태입니다. 잠시 후 다시 시도하십시오.</string>
+<string name="Adult_ERRCODE_F">사용자 성명이 두음법칙에 맞지 않는 상태입니다. (예: 류지선을 유지선으로 입력했을 때)</string>
+<string name="Adult_ERRCODE_Y">실명안심차단 대상자로 개인사용자가 임시로 해제 후 다시 검증할 수 있습니다. 이때는 한신정의 \"실명안심차단 일시 해제\" 화면을 사용하게 됩니다.</string>
+
+<string name="Adult_ERRCODE_G">사용자 정보가 한신정에 존재하지 않습니다. 고객상담센터(1588-2486) 또는 http://www.idcheck.co.kr/idcheck/sub3_02.jsp 에서 등록 가능하니 개인사용자에게 안내하시기 바랍니다.</string>
+<string name="Adult_ERRCODE_H">한신정의 보관 중인 실명정보가 불완전한 상태입니다. 고객상담센터(1588-2486) 또는 http://www.idcheck.co.kr/idcheck/sub3_02.jsp 에서 정정 가능하니 개인사용자에게 안내하시기 바랍니다.</string>
+<string name="Adult_ERRCODE_Z">사용자의 입력이나 한신정의 서비스 상태에 따라 실명확인을 지속할 수 없는 상태입니다.</string>
+
+<string name="Adult_ERRCODE_X">예상치 못한 오류로 인증 실패</string>
+
+<string name="Settop_ERRCODE_D">Internal Server Error</string>
+<string name="Settop_ERRCODE_U">Already Exists user</string>
+<string name="Settop_ERRCODE_X">Already Expired</string>
+<string name="Settop_ERRCODE_A">success</string>
+
+<string name="adult_auth_warring01">이름과 주민번호를 입력하여 주십시오.</string>
+<string name="adult_auth_warring02">이미 인증 되었습니다.</string>
+
+<string name="schedule_myProgram">My 프로그램</string>
+<string name="schedule_myAlarm">예약 알람</string>
+<string name="schedule_myRecord">녹화 예약</string>
+
+<string name="system_memory_warring">응용프로그램이 너무 많은 메모리를 사용하고 있습니다.</string>
+<string name="system_network_warring">Wifi 혹은 3G망이 연결되지 않았거나 원활하지 않습니다.네트워크 확인후 다시 접속해 주세요!</string>
+<string name="settings_product_setting_infomation_msg">지역 설정 후 상품설정을 꼭 확인 해주세요.</string>
+<string name="NotFound">항목이 없습니다.</string>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentBottom="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/list_backbg_01"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!-- TabBar Start -->
+
+        <RadioGroup
+            android:id="@+id/TvCH_Radiogroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18.67dip"
+            android:layout_marginRight="18.67dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/TVCH_AllCH_TABBtn"
+                android:layout_weight="1"
+                android:background="@drawable/tvch_menu_allch"
+                android:button="@null"
+                android:height="35.33dip"
+                android:soundEffectsEnabled="false"
+                android:width="0dip" />
+
+            <RadioButton
+                android:id="@+id/TVCH_Genre_TABBtn"
+                android:layout_weight="1"
+                android:background="@drawable/tvch_menu_genre"
+                android:button="@null"
+                android:height="35.33dip"
+                android:soundEffectsEnabled="false"
+                android:width="0dip" />
+
+            <RadioButton
+                android:id="@+id/TVCH_HDCH_TABBtn"
+                android:layout_weight="1"
+                android:background="@drawable/tvch_menu_hdch"
+                android:button="@null"
+                android:height="35.33dip"
+                android:soundEffectsEnabled="false"
+                android:width="0dip" />
+
+            <RadioButton
+                android:id="@+id/TVCH_PaidCH_TABBtn"
+                android:layout_weight="1"
+                android:background="@drawable/tvch_menu_chargech"
+                android:button="@null"
+                android:height="35.33dip"
+                android:soundEffectsEnabled="false"
+                android:width="0dip" />
+        </RadioGroup>
+
+        <!-- TabBar end -->
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</TabHost>

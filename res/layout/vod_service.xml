@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	 android:layout_alignParentBottom="true" android:id="@android:id/tabhost" android:background="@drawable/vod_backbg_02">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" >
+
+<!-- TabBar Start -->
+		<RadioGroup  android:id="@+id/vodService_radiogroup"
+			android:checkedButton="@+id/vodService_previewList_radiobutton"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:gravity="center" 
+			android:layout_marginLeft="18.67dip"
+			android:layout_marginRight="18.67dip"
+			 >
+			<RadioButton android:id="@+id/vodService_previewList_radiobutton"
+				 android:button="@null"
+				 android:soundEffectsEnabled="false" 
+				 android:height="35.33dip" 
+				 android:width="0dip" 
+				 android:layout_weight="1"
+				 android:background="@drawable/vod_preview_btn"
+				 />
+			<RadioButton android:id="@+id/vodService_newVideo_radiobutton" 
+				android:button="@null"
+				android:soundEffectsEnabled="false"
+				android:height="35.33dip"
+				android:width="0dip" 
+				android:layout_weight="1"
+				android:background="@drawable/vod_newvideo_btn"
+				/>
+			<RadioButton android:id="@+id/vodService_tvReplay_radiobutton" 
+				android:button="@null"
+				android:soundEffectsEnabled="false" 
+				android:height="35.33dip"
+				android:width="0dip" 
+				android:layout_weight="1"
+				android:background="@drawable/vod_tvreplay_btn"
+				/>
+			<RadioButton android:id="@+id/vodService_category_radiobutton" 
+				android:button="@null"
+				android:soundEffectsEnabled="false" 
+				android:height="35.33dip"
+				android:width="0dip" 
+				android:layout_weight="1"
+				android:background="@drawable/vod_category_btn"
+				/>
+		</RadioGroup>
+		
+<!-- TabBar end -->
+
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="0dip"
+			android:layout_weight="1"></FrameLayout>
+		
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="0" android:visibility="gone" />
+	</LinearLayout>
+</TabHost>
+

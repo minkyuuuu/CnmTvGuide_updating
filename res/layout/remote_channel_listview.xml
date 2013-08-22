@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/list_backbg_01">
+	<FrameLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:id="@+id/frameLayout1">
+		<ListView android:id="@+id/android:list"
+			android:layout_width="fill_parent" android:divider="#00000000"
+			android:layout_height="fill_parent" android:soundEffectsEnabled="false"
+			android:dividerHeight="0dip" android:clickable="true"></ListView>
+		<RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:id="@+id/TransLayout" android:visibility="gone" android:background="@color/TransWhite">
+			<TextView android:layout_width="wrap_content" android:id="@+id/WarningTextView"
+				android:background="@drawable/com_rounded_corner"
+				android:visibility="visible"
+				android:text="셋탑 전원이 스탠바이(OFF) 상태입니다. 전원버튼을 누르시면 리모콘 기능을 사용 하실 수 있습니다."
+				android:layout_height="wrap_content" android:layout_centerInParent="true"
+				android:hapticFeedbackEnabled="true" android:layout_margin="30dip"
+				android:padding="3dip" android:gravity="center_horizontal"></TextView>
+		</RelativeLayout>
+	</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:background="@drawable/list_bg02"
+    android:layout_width="wrap_content" android:paddingLeft="3dip" android:paddingRight="3dip">
+        <LinearLayout android:id="@+id/linearLayout2"
+            android:focusable="false" android:orientation="vertical"
+            android:gravity="center" android:layout_width="20dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/Alarm_My_ImageView"
+                android:layout_height="wrap_content" android:background="@drawable/icon_myprogram"
+                android:focusable="false" android:layout_width="wrap_content"></ImageView>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout3"
+            android:focusable="false" android:orientation="vertical"
+            android:layout_width="54dip" android:gravity="center" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toRightOf="@+id/linearLayout2">
+            <TextView android:layout_width="wrap_content" android:id="@+id/AlarmDayTextView"
+                android:layout_height="wrap_content"
+                android:textSize="10dip" android:textColor="@color/BLACK"></TextView>
+            <TextView android:layout_width="wrap_content" android:id="@+id/AlarmTimeTextView"
+                android:layout_height="wrap_content"
+                android:textSize="17dip" android:textColor="@color/BLACK"
+                android:layout_marginTop="5dip"></TextView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="wrap_content" android:gravity="center_vertical"
+            android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toRightOf="@+id/linearLayout3" android:paddingRight="15dip">
+            <LinearLayout android:focusable="false" android:orientation="horizontal"
+                android:layout_marginRight="17.33dip"
+                android:gravity="center_vertical" android:layout_marginLeft="7.33dip"
+                android:layout_width="wrap_content" android:layout_height="22dp" android:weightSum="1">
+                <TextView android:layout_width="wrap_content" android:id="@+id/Alarm_CH_TextView"
+                    android:textSize="10dip" android:textColor="@color/BLACK" android:layout_weight="0.83" android:layout_height="wrap_content"></TextView>
+                <ImageView android:id="@+id/Alarm_Logo_ImageView"
+                    android:focusable="false"
+                    android:layout_width="48.66dip" android:layout_marginLeft="5dip" android:layout_weight="0.90" android:layout_height="match_parent"></ImageView>
+            </LinearLayout>
+            <LinearLayout android:focusable="false" android:orientation="horizontal"
+                android:layout_height="wrap_content" android:layout_width="wrap_content"
+                android:gravity="center_vertical" android:layout_marginLeft="7.33dip">
+                <LinearLayout android:layout_width="wrap_content"
+                    android:id="@+id/linearLayout5" android:weightSum="1" android:layout_weight="80" android:layout_height="34dp">
+                    <TextView android:id="@+id/Alarm_Title_TextView"
+                        android:singleLine="true" android:paddingRight="3dip"
+                        android:textSize="17dip" android:textColor="@color/BLACK" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="wrap_content"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content"
+                    android:id="@+id/linearLayout4" android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView android:focusable="false" android:id="@+id/Alarm_HD_ImageView"
+                        android:background="@drawable/icon_hd" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:visibility="visible"></ImageView>
+                    <ImageView android:focusable="false" android:id="@+id/Alarm_icon_ImageView"
+                        android:background="@drawable/tvch_icon_alarm"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+  
+        <ImageView android:layout_height="wrap_content"
+            android:background="@drawable/list_icon_arrow" android:focusable="false"
+            android:layout_width="wrap_content" android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"></ImageView>
+  
+</RelativeLayout>

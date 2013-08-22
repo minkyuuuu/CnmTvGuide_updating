@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="center">
+
+		<!-- navigation Bar Start -->
+		<RelativeLayout android:background="@drawable/top_titlebar"
+			android:layout_width="match_parent" android:layout_height="43.33dip">
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+				android:layout_height="fill_parent" android:gravity="center_vertical"
+				android:paddingLeft="3dip">
+				<ImageButton android:id="@+id/Navi_LeftImgBtn"
+					android:layout_alignParentTop="true" android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:layout_alignParentBottom="true" android:background="@drawable/top_button_back"
+					android:soundEffectsEnabled="false"></ImageButton>
+				<ToggleButton android:layout_below="@id/Navi_LeftImgBtn"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:id="@+id/Navi_Sub_LeftImgBtn" android:layout_marginLeft="3dip"
+					android:background="@drawable/top_button_genre" android:textOff=""
+					android:textOn="" android:soundEffectsEnabled="false"></ToggleButton>
+			</LinearLayout>
+			<LinearLayout android:layout_height="fill_parent"
+				android:layout_width="wrap_content" android:layout_centerHorizontal="true"
+				android:gravity="center">
+				<TextView android:text="TV  채널" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/Navi_TitleText"
+					android:textColor="@color/WHITE"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentRight="true" android:layout_height="fill_parent"
+				android:gravity="center_vertical" android:paddingRight="3dip">
+				<ImageButton android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="3dip"
+					android:id="@+id/Navi_RightImgBtn" android:background="@drawable/top_button_my"
+					android:soundEffectsEnabled="false"></ImageButton>
+				<ImageButton android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/Navi_Sub_RightImgBtn"
+					android:background="@drawable/top_button_search"
+					android:layout_marginRight="3dip" android:soundEffectsEnabled="false"></ImageButton>
+
+			</LinearLayout>
+
+
+		</RelativeLayout>
+
+		<!-- navigation Bar end -->
+
+
+		// center
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="0dip"
+			android:layout_weight="1" android:background="#fff" />
+		
+		
+		// bottom
+		<RadioGroup  android:id="@+id/states"
+			android:background="@drawable/bottom_menubar_bg" android:gravity="center"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:orientation="horizontal">
+			<RadioButton android:id="@+id/first" android:button="@null"
+				android:soundEffectsEnabled="false" android:layout_height="wrap_content"
+				android:layout_width="0dp" 
+				android:layout_weight="1"
+				android:background="@drawable/bottom_menu_tvch"
+				/>
+			<RadioButton android:id="@+id/second" android:button="@null"
+				android:soundEffectsEnabled="false" android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_width="0dp" 
+				android:layout_weight="1"
+				android:background="@drawable/bottom_menu_vod"
+				/>
+			<RadioButton android:id="@+id/third" android:button="@null"
+				android:soundEffectsEnabled="false" android:layout_height="wrap_content"
+				android:layout_width="0dp" 
+				android:layout_weight="1"
+				android:background="@drawable/bottom_menu_remote"
+				/>
+			<RadioButton android:id="@+id/fourth" android:button="@null"
+				android:soundEffectsEnabled="false" android:layout_height="wrap_content"
+				android:layout_width="0dp" 
+				android:layout_weight="1"
+				android:background="@drawable/bottom_menu_pvr"
+				/>
+			<RadioButton android:id="@+id/fifth" android:button="@null"
+				android:soundEffectsEnabled="false" android:layout_height="wrap_content"
+				android:layout_width="0dp" 
+				android:layout_weight="1"
+				android:background="@drawable/bottom_menu_set"
+				/>
+		</RadioGroup>
+		
+		
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="0" android:visibility="gone" />
+	</LinearLayout>
+</TabHost>
+

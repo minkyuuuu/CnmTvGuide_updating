@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="vodGenreRoot">
+<item>영화</item>
+<item>TV다시보기</item>
+<item>교육어린이</item>
+<item>다큐오락/HD</item>
+</string-array>
+</resources>

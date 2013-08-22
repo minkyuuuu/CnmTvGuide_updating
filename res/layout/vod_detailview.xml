@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/vod_backbg_02"
+  android:orientation="vertical"
+  android:gravity="center_horizontal"
+  android:layout_width="fill_parent"  android:layout_height="fill_parent">
+  
+  	<RelativeLayout 
+  		android:id="@+id/vod_detailview_topLayout"
+	  	android:layout_marginTop="20dp"
+	  	android:layout_alignParentTop="true"
+	  	android:layout_height="wrap_content" android:layout_width="wrap_content">
+	  	
+	  		<TextView 
+	  			android:id="@+id/vod_detailview_title"
+	  			android:ellipsize="marquee"
+	  			android:marqueeRepeatLimit="marquee_forever"
+	  			android:scrollHorizontally="true"
+	  			android:singleLine="true"
+	  			android:focusable="true"
+	  			android:layout_centerHorizontal="true"
+	  			android:layout_width="227dp" android:layout_height="wrap_content"
+	  			style="@style/DetailViewTitle" />
+	  		
+	  		<hdlnc.dev2.sangtae.cnm.vod.TypeImageView
+	  			android:id="@+id/vod_detailview_type"
+	  			android:layout_alignParentRight="true"
+	  			android:layout_marginRight="1dp"
+	  			android:layout_centerVertical="true"
+	  			android:layout_width="wrap_content" android:layout_height="wrap_content"
+	  			android:background="@drawable/icon_hd"
+	  			 />
+	  			 
+	  		<hdlnc.dev2.sangtae.cnm.vod.GradeImageView
+	  			android:id="@+id/vod_detailview_grade"
+	  			android:layout_toLeftOf="@id/vod_detailview_type"
+	  			android:layout_marginRight="1dp"
+	  			android:layout_centerVertical="true"
+	  			android:layout_width="wrap_content" android:layout_height="wrap_content"
+	  			 />
+	  			
+	  			
+ 	</RelativeLayout>
+  
+  
+  	<LinearLayout 
+  		android:orientation="horizontal"
+  		android:gravity="center_vertical"
+  		android:layout_margin="10dp"
+  		android:layout_width="fill_parent"  android:layout_height="wrap_content" >
+  		
+  		<RelativeLayout
+  			android:layout_width="136.6dp"  android:layout_height="180.6dp"
+  			android:padding="3dp" 
+  			android:background="@drawable/vod_poster_bg">
+  			<ImageView
+  				android:id="@+id/vod_detailview_vodPoster_image"
+  				android:layout_centerInParent="true"
+  				android:soundEffectsEnabled="false"
+  				android:layout_width="fill_parent"  android:layout_height="fill_parent" />
+  			<ImageButton
+  				android:id="@+id/vod_detailview_vodplay_button"
+  				android:layout_centerInParent="true"
+  				android:background="@drawable/vod_button_play"
+  				android:soundEffectsEnabled="false"
+  				android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 		</RelativeLayout>
+ 		
+ 		<TableLayout
+ 			android:padding="5dp"
+ 			android:layout_width="fill_parent"  android:layout_height="wrap_content" >
+ 			<LinearLayout android:layout_marginBottom="10dp">
+ 				<TextView
+ 					style="@style/DetailView.DetailViewDirector"
+ 					android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 				<TextView
+ 					android:id="@+id/vod_detailView_detactor_text"
+ 					style="@style/DetailViewContent"
+ 					android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 			</LinearLayout>
+ 			<LinearLayout android:layout_marginBottom="10dp">
+ 				<TextView
+ 					style="@style/DetailView.DetailViewMainActor"
+ 					android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 				<TextView
+ 					android:id="@+id/vod_detailView_actor_text"
+ 					style="@style/DetailViewContent"
+ 					android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 			</LinearLayout>
+ 			<LinearLayout android:layout_marginBottom="10dp">
+ 				<TextView
+ 					style="@style/DetailView.DetailViewClass"
+ 					android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 				<TextView
+ 					android:id="@+id/vod_detailView_grade_text"
+ 					style="@style/DetailViewContent"
+ 					android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 			</LinearLayout>
+ 			<LinearLayout android:layout_marginBottom="10dp">
+ 				<TextView
+ 					style="@style/DetailView.DetailViewShowTerm"
+ 					android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 				<TextView
+ 					android:id="@+id/vod_detailView_runningTime_text"
+ 					style="@style/DetailViewContent"
+ 					android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 			</LinearLayout>
+ 			<LinearLayout android:layout_marginBottom="10dp">
+ 				<TextView
+ 					style="@style/DetailView.DetailViewPrice"
+ 					android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 				<TextView
+ 					android:id="@+id/vod_detailView_price_text"
+ 					style="@style/DetailViewContent"
+ 					android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+ 			</LinearLayout>
+ 		
+ 		</TableLayout>
+	</LinearLayout>
+  	
+  	<TextView
+  		android:id="@+id/vod_detailview_content_text"
+  		style="@style/DetailViewDesc"
+  		android:background="@drawable/vod_text_bg"
+  		android:layout_margin="5dp"
+  		android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+  		
+  	<LinearLayout 	
+  		android:orientation="horizontal"
+  		android:gravity="center"
+  		android:layout_width="fill_parent"  android:layout_height="fill_parent">
+  		<ImageButton android:soundEffectsEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/vod_button_tvview" android:id="@+id/vod_detailview_tvview_button"></ImageButton>
+  		<ToggleButton 
+  			android:id="@+id/vod_detailview_zzim_button"
+  			android:background="@drawable/detailview_zzim_btn"
+  			android:textOn="" android:textOff=""
+  			android:soundEffectsEnabled="false"
+  			android:layout_width="wrap_content"  android:layout_height="wrap_content" android:visibility="visible" android:layout_marginLeft="10dip"/>
+  		<ImageButton 
+  			android:id="@+id/vod_detailview_share_button"
+  			android:background="@drawable/detailview_share_btn"
+  			android:soundEffectsEnabled="false"
+  			android:layout_width="wrap_content"  android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+	</LinearLayout>
+</LinearLayout>

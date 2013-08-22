@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout01" 
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="5dp"
+	android:background="@drawable/vod_backbg_02">
+	
+		<RelativeLayout
+			android:id="@+id/Radio_Menu_image"	
+			android:layout_centerHorizontal="true"
+			android:layout_alignParentTop="true"
+			android:layout_marginTop="42dp"
+			android:background="@drawable/set_selectbg"
+			android:soundEffectsEnabled="false"
+			android:layout_width="105.3dp" android:layout_height="155.3dp" >
+			<ImageView 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@drawable/beginset_menu"
+				android:soundEffectsEnabled="false"
+				android:layout_centerInParent="true"
+				 />	
+		</RelativeLayout>
+		
+		<RadioButton android:id="@+id/Radio_Menu"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_above="@id/Radio_Menu"
+			android:layout_alignLeft="@id/Radio_Menu_image"
+			android:textColor="@color/WHITE"
+			android:soundEffectsEnabled="false"
+			android:text="Home 화면" android:button="@drawable/icon_radiocheck"/>
+		
+		
+		<RelativeLayout	
+			android:id="@+id/Radio_TVChannel_image"
+			android:background="@drawable/set_selectbg"
+			android:layout_marginLeft="25dp"
+			android:layout_marginBottom="10dp"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentBottom="true"
+			android:soundEffectsEnabled="false"
+			android:layout_width="105.3dp" android:layout_height="155.3dp" >
+			<ImageView 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@drawable/beginset_main"
+				android:layout_centerInParent="true"
+				android:soundEffectsEnabled="false"
+				 />	
+		</RelativeLayout>
+		
+		<RelativeLayout	
+			android:id="@+id/Radio_VOD_image"
+			android:background="@drawable/set_selectbg"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="10dp"
+			android:layout_marginRight="25dp"
+			android:soundEffectsEnabled="false"
+			android:layout_width="105.3dp" android:layout_height="155.3dp" >
+			<ImageView 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@drawable/beginset_vod"
+				android:layout_centerInParent="true"
+				android:soundEffectsEnabled="false"
+			 />		
+		</RelativeLayout>		
+		
+	<RadioButton android:id="@+id/Radio_VOD_Button"
+		android:layout_above="@id/Radio_VOD_image"
+		android:layout_alignLeft="@id/Radio_VOD_image"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textColor="@color/WHITE"
+		android:soundEffectsEnabled="false"
+		android:text="VOD화면" android:button="@drawable/icon_radiocheck"/>
+
+	<RadioButton  android:id="@+id/Radio_TVChannel"
+		android:layout_above="@id/Radio_TVChannel_image"
+		android:layout_alignLeft="@id/Radio_TVChannel_image"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textColor="@color/WHITE"
+		android:soundEffectsEnabled="false"
+		android:text="TV채널화면" android:button="@drawable/icon_radiocheck"/>	
+	
+</RelativeLayout>

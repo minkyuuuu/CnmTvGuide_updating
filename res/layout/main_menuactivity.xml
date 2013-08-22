@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent"><ImageView android:id="@+id/Main_MenuImgView" android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/main_bg"></ImageView></LinearLayout>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_centerInParent="true" android:paddingTop="75dip" android:paddingLeft="5dip">
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Menu_Tvch_ImgBtn" android:soundEffectsEnabled="false" android:background="@drawable/main_menu_tvch"></ImageButton>
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Menu_VOD_ImgBtn" android:soundEffectsEnabled="false" android:background="@drawable/main_menu_vod"></ImageButton>
+<ImageButton android:layout_width="wrap_content" android:soundEffectsEnabled="false" android:layout_height="wrap_content" android:background="@drawable/main_menu_remocon" android:id="@+id/Menu_Remocon_ImgBtn"></ImageButton>
+<ImageButton android:layout_width="wrap_content" android:soundEffectsEnabled="false" android:layout_height="wrap_content" android:background="@drawable/main_menu_pvr" android:id="@+id/Menu_PVR_ImgBtn"></ImageButton>
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/main_menubtn_joy" android:id="@+id/Menu_JoyN_ImgBtn" android:layout_marginBottom="5dip" android:soundEffectsEnabled="false" android:visibility="gone"></ImageButton>
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Menu_Settings_ImgBtn" android:layout_marginBottom="5dip" android:soundEffectsEnabled="false" android:background="@drawable/main_menu_set"></ImageButton>
+</LinearLayout>
+
+</RelativeLayout>

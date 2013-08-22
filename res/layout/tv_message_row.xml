@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/tvmessage_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="5dip" android:paddingTop="5dip" android:paddingLeft="10dip" android:paddingRight="5dip">
+    <ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/tvmessage_icon_delete" android:id="@+id/tvmessage_icon_delete" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></ImageButton>
+    <TextView android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2.14  (월) 171:17" android:layout_alignParentTop="true" android:id="@+id/tvmessage_date" android:textColor="@color/BLACK"></TextView>
+    <TextView android:id="@+id/tvmessage_msg" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/tvmessage_date" android:layout_alignLeft="@+id/tvmessage_date" android:paddingRight="5dip" android:paddingTop="3dip" android:textSize="17dip" android:lineSpacingExtra="0dip" android:text="집에 들어가. 집에 들어가Text	집에 들어가. 집에 들어가Text	집에 들어가. 집Text	집에 들어가. 집에 Text	집에 들어가. 집에 들어가Text	집에 들어가. 집에 들어가Text	집에 들어가. 집Text	집에 들어가. 집에 들어가에 들어가Text	집에 들어가. 집에 들어가Text	집에 들어가. 집에 들어가Text	집에 들어가. 집Text	집에 들어가. 집에 들어가에 들어가들어가" android:textColor="@color/BLACK"></TextView>
+
+</RelativeLayout>

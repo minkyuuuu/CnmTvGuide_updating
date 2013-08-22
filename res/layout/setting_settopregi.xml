@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/list_backbg_04"
+	android:stretchColumns="1"
+	android:padding="20dp" >
+	
+	<TableRow>
+		<TextView
+			android:layout_width="18dp"	android:layout_height="wrap_content" 
+			style="@style/DefaultTextStyle"
+			android:text="1." />	
+		<TextView  
+			android:layout_width="wrap_content"	android:layout_height="wrap_content"
+			style="@style/DefaultTextStyle.LineSpacing" 
+			android:text="@string/setting_settop_regi1"
+			/>	
+	</TableRow>
+	<TableRow>
+		<TextView
+			android:layout_width="wrap_content"	android:layout_height="wrap_content" 
+			style="@style/DefaultTextStyle"
+			android:text="2." />	
+		<TextView  
+			android:layout_width="wrap_content"	android:layout_height="wrap_content"
+			style="@style/DefaultTextStyle.LineSpacing"
+			android:text="@string/setting_settop_regi2"
+			/>	
+	</TableRow>
+	<TableRow>
+		<TextView
+			android:layout_width="wrap_content"	android:layout_height="wrap_content" 
+			style="@style/DefaultTextStyle"
+			android:text="3." />	
+		<TextView  
+			android:layout_width="wrap_content"	android:layout_height="wrap_content"
+			style="@style/DefaultTextStyle.LineSpacing"
+			android:text="@string/setting_settop_regi3"
+			/>	
+	</TableRow>
+	<TableRow>
+		<TextView
+			android:layout_width="wrap_content"	android:layout_height="wrap_content" 
+			style="@style/DefaultTextStyle"
+			android:text="4." />	
+		<TextView  
+			android:layout_width="wrap_content"	android:layout_height="wrap_content"
+			style="@style/DefaultTextStyle.LineSpacing"
+			android:text="@string/setting_settop_regi4"
+			/>	
+	</TableRow>
+	<TableRow>
+		<TextView
+			android:layout_width="wrap_content"	android:layout_height="wrap_content" 
+			style="@style/DefaultTextStyle"
+			android:text="5." />	
+		<TextView  
+			android:layout_width="wrap_content"	android:layout_height="wrap_content"
+			style="@style/DefaultTextStyle.LineSpacing"
+			android:text="@string/setting_settop_regi5"
+			/>	
+	</TableRow>
+	
+	<LinearLayout 
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<EditText 
+			android:id="@+id/settopregiedit"
+			style="@style/DefaultTextStyle" 
+			android:hint="인증번호를 입력 하세요"
+			android:inputType="number"
+			android:layout_width="178.6dp" android:layout_height="32.6dp"
+			/>
+		<ImageButton 
+			android:id="@+id/settopregibtn"
+			android:layout_marginLeft="15dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:soundEffectsEnabled="false"
+			android:background="@drawable/setting_settopregi_btn"
+			/>
+		
+	</LinearLayout>	
+	<TableRow>
+		<TextView
+			android:layout_width="wrap_content"	android:layout_height="wrap_content" 
+			style="@style/DefaultTextStyle"
+			android:text="6." />	
+		<TextView  
+			android:layout_width="wrap_content"	android:layout_height="wrap_content"
+			style="@style/DefaultTextStyle.LineSpacing" 
+			android:text="@string/setting_settop_regi6"
+			/>	
+	</TableRow>
+</TableLayout>

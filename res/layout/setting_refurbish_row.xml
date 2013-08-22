@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/setting_refurbish_row" android:gravity="center_vertical"
+	android:layout_height="wrap_content" android:layout_width="wrap_content"
+	android:background="@drawable/list_bg01">
+
+	<TextView android:id="@+id/Setting_Refurbish_Item" 
+		android:layout_width="wrap_content" 
+		android:layout_height="fill_parent" 
+		android:focusable="false"
+		android:textColor="@color/PLUM"
+		android:textSize="17dip" 
+		android:layout_alignParentLeft="true" 
+		android:layout_marginLeft="10dip" />
+
+	<ImageButton
+		android:id="@+id/Setting_Refurbish_ImgBtn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:focusable="false"
+		android:layout_alignParentRight="true" 
+		android:layout_marginRight="30dip"
+		android:background="@drawable/setting_refurbish_btn" />	
+		
+</RelativeLayout>

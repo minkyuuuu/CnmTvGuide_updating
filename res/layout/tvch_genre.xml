@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_backbg_01" >
+    
+    // 1
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.67dip"
+        android:layout_marginRight="18.67dip"
+        android:layout_marginTop="15dip" >
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/genrega_button_ground"
+            android:soundEffectsEnabled="false" >
+        </Button>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/genrega_button_movie"
+            android:soundEffectsEnabled="false" >
+        </Button>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/genre_button_drama"
+            android:soundEffectsEnabled="false" >
+        </Button>
+    </TableRow>
+    
+    // 2
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.67dip"
+        android:layout_marginRight="18.67dip"
+        android:layout_marginTop="10dip" >
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/genre_button_music"
+            android:soundEffectsEnabled="false" >
+        </Button>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/genre_button_sport"
+            android:soundEffectsEnabled="false" >
+        </Button>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/genrega_button_new"
+            android:soundEffectsEnabled="false" >
+        </Button>
+    </TableRow>
+    
+    // 3
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.67dip"
+        android:layout_marginRight="18.67dip"
+        android:layout_marginTop="10dip" >
+        >
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/genre_button_child"
+            android:soundEffectsEnabled="false" >
+        </Button>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/genre_button_religion"
+            android:soundEffectsEnabled="false" >
+        </Button>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/genre_button_homeshop"
+            android:soundEffectsEnabled="false" >
+        </Button>
+    </TableRow>
+    
+    // 4
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.67dip"
+        android:layout_marginRight="18.67dip"
+        android:layout_marginTop="10dip" >
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/genrega_button_hobby"
+            android:soundEffectsEnabled="false" >
+        </Button>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/genrega_button_religion"
+            android:soundEffectsEnabled="false" >
+        </Button>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/TVCH_GenreBtn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/genrega_button_info"
+            android:soundEffectsEnabled="false" >
+        </Button>
+    </TableRow>
+
+</TableLayout>

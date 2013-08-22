@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all_channel_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_bg"
+    android:paddingLeft="3dip"
+    android:paddingRight="5dip"
+    android:soundEffectsEnabled="false" >
+
+    <ImageView
+        android:id="@+id/MyCh_Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/icon_myprogram"
+        android:soundEffectsEnabled="false" >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_toRightOf="@+id/MyCh_Icon"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:soundEffectsEnabled="false" >
+
+        <TextView
+            android:id="@+id/tvch_schedule_ProgramTime"
+            android:layout_width="40.66dip"
+            android:layout_height="18.66dip"
+            android:layout_marginLeft="5dip"
+            android:soundEffectsEnabled="false"
+            android:text="20:50"
+            android:textColor="@color/BLACK" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/tvch_icon_recording"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tvch_icon_recording" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dip"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:soundEffectsEnabled="false" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dip"
+            android:layout_weight="80"
+            android:orientation="vertical"
+            android:soundEffectsEnabled="false" >
+
+            <TextView
+                android:id="@+id/tvch_schedule_ProgramTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:soundEffectsEnabled="false"
+                android:text="TextView"
+                android:textColor="@color/PLUM"
+                android:textSize="17dip" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="4dip"
+            android:soundEffectsEnabled="false" >
+
+            <ImageView
+                android:id="@+id/tvch_schedule_HD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dip"
+                android:background="@drawable/icon_hd"
+                android:soundEffectsEnabled="false" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/tvch_schedule_Alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dip"
+                android:background="@drawable/tvch_icon_alarm"
+                android:soundEffectsEnabled="false" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/tvch_icon_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dip"
+                android:background="@drawable/tvch_icon_record"
+                android:soundEffectsEnabled="false" >
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/vod_ListIconArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/list_icon_arrow" />
+
+</RelativeLayout>

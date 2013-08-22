@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:layout_alignParentBottom="true" android:id="@android:id/tabhost">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="center" android:background="@drawable/list_backbg_01">
+
+
+		<!-- TabBar Start -->
+		<RadioGroup android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="2dip" android:paddingBottom="2dip"
+			android:gravity="center" android:checkedButton="@+id/TVCH_MYCH"
+			android:id="@+id/TvMYCH_Radiogroup">
+			<RadioButton android:button="@drawable/my_menu_mych"
+				android:id="@+id/TVCH_MYCH" android:layout_height="34.66dip" android:layout_width="141dip" android:soundEffectsEnabled="false"/>
+			<RadioButton android:id="@+id/TVCH_MY_ALARM" android:layout_width="141dip"
+				android:button="@drawable/my_menu_alarm" android:layout_height="34.66dip" android:soundEffectsEnabled="false"/>
+		</RadioGroup>
+
+		<!-- TabBar end -->
+
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="0dip"
+			android:layout_weight="1"></FrameLayout>
+
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="0" android:visibility="gone" />
+	</LinearLayout>
+</TabHost>
+

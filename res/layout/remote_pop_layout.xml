@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:gravity="center_horizontal" android:background="@color/ALPHA" android:padding="5dip" android:layout_height="wrap_content" android:layout_width="wrap_content">
+	<ImageView android:src="@drawable/popup_remocon_stboff" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@color/ALPHA" android:layout_marginTop="5dip" android:text="셋탑 뒷 전원이 꺼져있는 상태이거나 통신이 고르지 못해 연결이 불가능 합니다." android:textSize="16dip" android:layout_marginRight="30dip" android:gravity="center" android:layout_marginLeft="25dip"></TextView>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/setting_row" android:gravity="center_vertical"
+	 android:layout_height="wrap_content" android:layout_width="fill_parent" 
+	android:background="@drawable/list_bg02">
+
+    <ImageView android:id="@+id/vod_ListPoster"
+		android:layout_width="54dp" android:layout_height="72dp"
+		android:background="@drawable/noimg_listposter"
+		android:layout_alignParentLeft="true" 
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="1dip"
+		android:layout_marginTop="2dip" />
+		
+	<ImageView android:id="@+id/vod_ListIconArrow"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/list_icon_arrow"
+		android:layout_alignParentRight="true" 
+		android:layout_centerVertical="true"
+		android:layout_marginRight="13dip"
+		/>
+	
+	<LinearLayout
+		android:layout_width="fill_parent" android:layout_toRightOf="@id/vod_ListPoster"
+		android:orientation="vertical" android:gravity="center_vertical" android:layout_marginRight="25dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+		
+		<LinearLayout
+			android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
+			<LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout2" android:orientation="vertical" android:layout_height="wrap_content" android:layout_weight="80">
+				<TextView android:layout_marginLeft="7dip" android:id="@+id/vod_ListTitle" android:layout_width="wrap_content" android:singleLine="true" style="@style/list_title"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout3" android:orientation="horizontal" android:layout_height="wrap_content">
+				<hdlnc.dev2.sangtae.cnm.vod.GradeImageView android:id="@+id/vod_ListClassIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp"></hdlnc.dev2.sangtae.cnm.vod.GradeImageView>
+				<hdlnc.dev2.sangtae.cnm.vod.TypeImageView android:id="@+id/vod_ListVodTypeIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/icon_hd" android:layout_marginLeft="5dp"></hdlnc.dev2.sangtae.cnm.vod.TypeImageView>
+			</LinearLayout>
+			
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+			<TextView android:layout_marginLeft="7dip" android:layout_marginTop="2dip" android:id="@+id/vod_ListDirector" style="@style/list_director"></TextView>
+			<TextView android:layout_marginLeft="7dip" android:layout_marginTop="-7dip" android:id="@+id/vod_ListCasting" style="@style/list_casting"></TextView>
+		</LinearLayout>	
+		
+	</LinearLayout>
+</RelativeLayout>
