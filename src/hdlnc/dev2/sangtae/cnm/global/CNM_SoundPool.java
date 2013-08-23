@@ -44,13 +44,12 @@ public class CNM_SoundPool {
 	}
 
 	public void play() {
-		// TODO Auto-generated method stub
 		Log.d("TEST","paly");
 		soundEffectCheck();
 		mSoundPool.play(tak, mVolume, mVolume, 0, 0, 1f);
 
 		/*
-		// ¹öÆ° Å¬¸¯À½ ÄÝ½ºÅÃ È®ÀÎ¿ë ¹«Á¶°Ç ¿¹¿ÜÃ³¸®
+		// ï¿½ï¿½Æ° Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½Ý½ï¿½ï¿½ï¿½ È®ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½
 		try {
 			int c=1;	c = c/0;
 		} catch(Exception e) {
