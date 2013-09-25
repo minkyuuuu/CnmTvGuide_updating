@@ -3,23 +3,52 @@
 
     <dimen name="vod_60">77dip</dimen>
     
+    <!-- font size ; original * 58%-->
+    <dimen name="sp20">11.6sp</dimen>	
+    <dimen name="sp22">12.76sp</dimen>	
+    <dimen name="sp24">13.92sp</dimen>	
+    <dimen name="sp26">15.08sp</dimen>	
+    <dimen name="sp28">16.24sp</dimen>	
+    <dimen name="sp29">16.82sp</dimen>	
+    <dimen name="sp30">17.4sp</dimen>	
+    <dimen name="sp32">18.56sp</dimen>	
+    <dimen name="sp35">20.3sp</dimen>	
+    <dimen name="sp36">20.88sp</dimen>	
+    <dimen name="sp40">23.2sp</dimen>	
+    <dimen name="sp45">26.1sp</dimen>	
+    
+    <dimen name="ppx5">2.5dip</dimen>
     <dimen name="px5">2.5dip</dimen>
     <dimen name="px7">3.5dip</dimen>
     <dimen name="px10">5dip</dimen>
+    <dimen name="ppx10">5dip</dimen>
     
     <dimen name="px20">10dip</dimen>
-    
+    <dimen name="ppx20">10dip</dimen>
     <dimen name="px25">12.5dip</dimen>
+    
+    <dimen name="px30">15dip</dimen>
+    <dimen name="ppx30">15dip</dimen>
     
     <dimen name="px50">25dip</dimen>
     
-    <dimen name="px80">40dip</dimen>
+    <dimen name="px60">30dip</dimen>
+    
+    <dimen name="px70">35dip</dimen>
+    <dimen name="ppx70">35dip</dimen>
+    
+    <dimen name="ppx80">40dip</dimen>
     
     <dimen name="px95">47.5dip</dimen>
+    <dimen name="px100">50dip</dimen>
+    <dimen name="ppx100">50dip</dimen>
     
     <dimen name="px150">75dip</dimen>
     
+    <dimen name="px200">100dip</dimen>
+    
     <dimen name="px298">149dip</dimen>
+    <dimen name="px300">150dip</dimen>
     
     <dimen name="px400">200dip</dimen>
 

@@ -1,47 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:fadingEdge="none"
-	android:fadeScrollbars="true"
-	android:scrollbars="none"
-	android:layout_width="fill_parent"  android:layout_height="fill_parent" >
-<LinearLayout
-  
-  android:orientation="vertical"  android:gravity="right"
-  android:layout_width="fill_parent"  android:layout_height="fill_parent"
-  android:background="@drawable/class19_bg"
-  >
-  
-  <EditText 
-  	android:id="@+id/vod_auth_name_text"
-  	android:layout_marginLeft="90dp"
-  	android:layout_marginRight="20dp"
-  	style="@style/DefaultTextStyle.EditText"
-  	android:hint="이름 입력"
-  	android:layout_width="match_parent" android:layout_height="40dp" android:inputType="textCapCharacters|text" android:layout_marginTop="140dp"/>
-  
-  <EditText 
-  	android:id="@+id/vod_auth_idenKey_text"
-  	android:layout_marginTop="3dp"
-  	android:layout_marginLeft="90dp"
-  	android:layout_marginRight="20dp"
-  	style="@style/DefaultTextStyle.EditText"
-  	android:hint="\'-\'제외한 주민번호 입력"
-  	android:maxLength="13"
-  	android:layout_width="match_parent"  android:layout_height="40dp" android:inputType="numberSigned" android:password="true" android:singleLine="true"/>
-  	
-  	<LinearLayout 
-  		android:id="@+id/vod_radioBtn_warp"
-  		android:layout_width="wrap_content"  android:layout_height="wrap_content">
-  	<RadioButton
-  		android:id="@+id/vod_auth_auto_radioBtn"
-  		android:layout_marginRight="20dp"
-  		android:text=""
-  		android:clickable="false"
-  		android:checked="true"
-  		android:soundEffectsEnabled="false"
-  		android:layout_width="wrap_content"  android:layout_height="wrap_content"
-  		/>
-  	</LinearLayout>	
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/class19_bg_01"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/ppx30"
+        android:src="@drawable/a19" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/ppx20"
+        android:src="@drawable/a19_notice" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ppx100"
+        android:layout_marginTop="@dimen/ppx20"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="@dimen/ppx20"
+            android:layout_marginRight="@dimen/ppx20"
+            android:layout_weight="13"
+            android:background="@color/ALPHA"
+            android:gravity="center_vertical"
+            android:text="이름(실명)"
+            android:textSize="@dimen/sp30" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/vod_auth_name_text"
+            style="@style/DefaultTextStyle.EditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/ppx80"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/ppx20"
+            android:layout_weight="40"
+            android:hint="이름 입력"
+            android:inputType="textCapCharacters|text"
+            android:textSize="@dimen/sp30" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ppx100"
+        android:layout_marginTop="@dimen/ppx5" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="@dimen/ppx20"
+            android:layout_marginRight="@dimen/ppx20"
+            android:layout_weight="13"
+            android:background="@color/ALPHA"
+            android:gravity="center_vertical"
+            android:text="주민번호"
+            android:textSize="@dimen/sp30" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/vod_auth_idenKey_text"
+            style="@style/DefaultTextStyle.EditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/ppx80"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/ppx20"
+            android:layout_weight="40"
+            android:hint="\&apos;-\&apos;제외한 주민번호 입력"
+            android:inputType="numberSigned"
+            android:maxLength="13"
+            android:password="true"
+            android:singleLine="true"
+            android:textSize="@dimen/sp30" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/vod_radioBtn_warp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ppx80"
+        android:layout_marginTop="@dimen/ppx5" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ppx20"
+            android:background="@color/ALPHA"
+            android:gravity="center_vertical"
+            android:text="자동 성인 인증하기"
+            android:textSize="@dimen/sp30" >
+        </TextView>
+
+        <RadioButton
+            android:id="@+id/vod_auth_auto_radioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ppx20"
+            android:checked="true"
+            android:clickable="false"
+            android:soundEffectsEnabled="false"
+            android:text="" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ppx10"
+        android:layout_marginRight="@dimen/ppx10"
+        android:layout_marginTop="@dimen/px30"
+        android:background="@drawable/box" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/ALPHA"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="@dimen/ppx10"
+            android:paddingLeft="@dimen/ppx10"
+            android:paddingRight="@dimen/ppx10"
+            android:text="귀하가 입력하시는 주민등록번호는 성인확인 목적으로만 사용되며 별도로 저장하지 않습니다.\n개정된 &apos;주민등록법&apos;에 의해 타인의 주민등록번호를 도용하여 부정사용하는 경우 3년 이하의 징역 또는 1천만원의 벌금이 부과됩니다."
+            android:textSize="@dimen/sp26" >
+        </TextView>
+    </RelativeLayout>
+
 </LinearLayout>
-</ScrollView>

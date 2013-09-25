@@ -1,22 +1,13 @@
 package hdlnc.dev2.sangtae.cnm.settings;
 
 import hdlnc.dev2.sangtae.cnm.R;
-
 import hdlnc.dev2.sangtae.cnm.global.CNMApplication;
-import hdlnc.dev2.sangtae.cnm.global.Intent_KEY_Define;
 import hdlnc.dev2.sangtae.cnm.global.NaviBtn_Singleton;
 import hdlnc.dev2.sangtae.cnm.global.XML_Address_Define;
 import hdlnc.dev2.sangtae.cnm.global.DATA.ADULT_AUTH_DATA;
 import hdlnc.dev2.sangtae.cnm.global.DATA.ADULT_AUTH_PARSER;
-
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-
-
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -26,14 +17,14 @@ import android.view.View;
 import android.view.View.OnKeyListener;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
 import android.widget.RadioButton;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
-import android.widget.CompoundButton.OnCheckedChangeListener;
 
 public class Setting_Adult_Auth extends Activity{
 
@@ -133,7 +124,7 @@ public class Setting_Adult_Auth extends Activity{
 			idenEditText.setHint("인증완료");
 		}
 		
-		LinearLayout radioBtnWrap = (LinearLayout)findViewById(R.id.vod_radioBtn_warp);
+		RelativeLayout radioBtnWrap = (RelativeLayout)findViewById(R.id.vod_radioBtn_warp);
 		radioBtnWrap.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
